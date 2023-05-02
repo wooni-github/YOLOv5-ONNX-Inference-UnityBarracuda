@@ -18,6 +18,7 @@ For preparing custom data, training, and converting to `.onnx`, please refer to 
 
 5. Inference in `Unity Barracuda`.
 
+
 ## 0. Prerequisites
 - Unity (2022.2.15f1)
 - Barracuda (3.0.0)
@@ -49,17 +50,17 @@ The `yolov5s.onnx` file has 80 classes, and you can check the class information 
 ## Review
 
 
-Ideally, if there is sufficient memory available (such as on a PC), the inference should be performed in the following order:
+Ideally, if there is sufficient memory available (such as on a PC), the inference should be performed in the following order
 
 1. Capture high-resolution camera image (e.g., 1920 x 1080)
 
-2 .Resize the captured image to the network size (416 x 416)
+2. Resize the captured image to the network size (416 x 416)
 
-3 .Perform `yolov5` inference using the `.onnx` file on the image from (2) and obtain bounding boxes
+3. Perform `yolov5` inference using the `.onnx` file on the image from (2) and obtain bounding boxes
 
-4 .Draw the inferred bounding boxes on the original image (1920 x 1080)
+4. Draw the inferred bounding boxes on the original image (1920 x 1080)
 
-However, this repository was intended for use on smartphones, and it was impossible to perform this process on my smartphone due to memory constraints. 
+However, this repository was intended for use on smartphones, and it was impossible to perform this process on my smartphone due to memory issues. 
 
 Therefore, I captured a smaller image (640 x 480), assigned the center-cropped (416 x 416) image as the network input, and directly drew the inference results on the image.
 
