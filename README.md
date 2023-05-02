@@ -47,6 +47,12 @@ The `yolov5s.onnx` file has 80 classes, and you can check the class information 
 
 ![3.yolov5s](github_assets/3.yolov5s.png)
 
+The video below shows this repository running on a SAMSUNG Galaxy Tab S7+. 
+
+If you have properly set up Unity and the Android JDK and SDK, you should be able to build and run it.
+
+![4.inference_android](github_assets/4.unity_inference_android.gif)
+
 ## Review
 
 
