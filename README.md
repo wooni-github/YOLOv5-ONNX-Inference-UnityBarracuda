@@ -8,13 +8,13 @@ This repository demonstrates `YOLOv5` inference in `Unity Barracuda` using an `.
 
 For preparing custom data, training, and converting to `.onnx`, please refer to this [repository](https://github.com/wooni-github/YOLOv5-ONNX-Training-for-Unity):
 
-~~1. Prepare custom data and perform labeling using `CVAT`.~~
+1. ~~Prepare custom data and perform labeling using `CVAT`.~~
 
-~~2. Training with `YOLOv5` using PyTorch.~~
+2. ~~Training with `YOLOv5` using PyTorch.~~
 
-~~3. Converting to `.onnx` for inference in Unity.~~
+3. ~~Converting to `.onnx` for inference in Unity.~~
 
-~~4. Verify training results (`.onnx`) using a webcam.)~~
+4. ~~Verify training results (`.onnx`) using a webcam.)~~
 
 5. Inference in `Unity Barracuda`.
 
