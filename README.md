@@ -1,10 +1,11 @@
 # YOLOv5-ONNX-Inference-UnityBarracuda
 
-![3.inference](github_assets/0.unity_inference.gif)
-
-From start to finish with `YOLOv5 on Windows`: From custom training data to prepare `.onnx` file for `Android Unity Barracuda inference`.
 
 This repository demonstrates `YOLOv5` inference in `Unity Barracuda` using an `.onnx` file.
+
+![0.inference](github_assets/0.unity_inference.gif)
+
+From start to finish with `YOLOv5 on Windows`: From custom training data to prepare `.onnx` file for `Android Unity Barracuda inference`.
 
 For preparing custom data, training, and converting to `.onnx`, please refer to this [repository](https://github.com/wooni-github/YOLOv5-ONNX-Training-for-Unity):
 
